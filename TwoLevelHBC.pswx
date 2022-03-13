@@ -1,0 +1,52 @@
+<workspace name="TwoLevelHBC">
+  <paramlist name="options">
+    <param name="display_project_file_name" value="false" />
+    <param name="compile_save_enable" value="false" />
+    <param name="autosave_interval" value="15" />
+    <param name="type_conversion_warn" value="1" />
+    <param name="private_env" value="true" />
+    <param name="unit_system_warn" value="1" />
+    <param name="case_sensitivity" value="true" />
+    <param name="ss_limit" value="256" />
+    <param name="MaxRadioCount" value="64" />
+    <param name="MaxConcurrentSim" value="32" />
+    <param name="SocketPortBase" value="30000" />
+    <param name="memory_notify" value="256" />
+    <param name="output_empty" value="1" />
+    <param name="output_excess" value="1" />
+    <param name="output_density" value="1" />
+    <param name="waveform_overwrite" value="1" />
+    <param name="snapshot_overwrite" value="1" />
+    <param name="duplicate_messages" value="0" />
+    <param name="fd_iterations" value="10" />
+    <param name="fd_precision" value="0.001" />
+    <param name="gs_iterations" value="10" />
+    <param name="gs_precision" value="0.01" />
+    <param name="gs_accelerator_1" value="0.5" />
+    <param name="gs_accelerator_2" value="1.0" />
+    <param name="zero_imp_threshold" value="0.0" />
+    <param name="nr_iterations" value="30" />
+    <param name="nr_precision" value="0.001" />
+    <param name="network_dataset_file" value="" />
+    <param name="network_models_namespace" value="Station_Models" />
+    <param name="sol_type" value="0" />
+    <param name="flat_start" value="true" />
+    <param name="adjust_phase" value="true" />
+    <param name="adjust_shunts" value="true" />
+    <param name="adjust_xfmr" value="true" />
+    <param name="adjust_area" value="true" />
+    <param name="ignore_var" value="true" />
+    <param name="priority" value="Medium" />
+  </paramlist>
+  <environments>
+    <environment name="general">
+      <paramlist name="system" />
+    </environment>
+  </environments>
+  <projects path="C:\Users\Shilin Gao\Documents">
+    <project name="HBC" filepath="HBC.pscx" />
+    <project name="UserDefinedHBC" filepath="UserDefinedHBC.pscx" />
+  </projects>
+  <simulations />
+  <powerflow />
+</workspace>
